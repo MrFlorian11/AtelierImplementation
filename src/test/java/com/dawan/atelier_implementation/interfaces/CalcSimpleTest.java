@@ -1,5 +1,6 @@
 package com.dawan.atelier_implementation.interfaces;
 
+import com.dawan.atelier_implementation.solutions.CalcSimpleSolution;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -14,6 +15,7 @@ class CalcSimpleTest {
     private CalcSimple createCalculator() {
         // TODO: Importez votre class qui implémente CalcSimple et returnez la ici
         throw new UnsupportedOperationException("Students must implement createCalculator() method");
+        return new CalcSimpleSolution();
     }
 
     @Test
